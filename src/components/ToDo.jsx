@@ -23,6 +23,7 @@ const XStyle = styled.div`
   }
 `;
 
+// Pure/Functional Component (aka "dumb")
 const ToDo = props => (
   <ListStyle applied={props.applied}>
     <input

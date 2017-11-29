@@ -20,6 +20,8 @@ const LoadingStyle = styled.h4`
   text-align: center;
 `;
 
+// *ES6 Class*
+// Class-based/Stateful Component (aka "smart")
 class ToDoList extends Component {
   constructor(props) {
     super(props);
